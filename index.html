@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body class="bg-black text-white font-sans scroll-smooth">
+
+<!-- Sticky Navbar with Mobile Menu -->
+<header class="fixed top-0 w-full z-50 bg-black bg-opacity-90 backdrop-blur-md shadow-md">
+  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-white">Abhishek</h1>
+
+    <!-- Desktop Nav -->
+    <ul class="hidden md:flex space-x-6 text-sm font-medium">
+      <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+      <li><a href="#projects" class="hover:text-blue-400 transition">Projects</a></li>
+      <li><a href="#certificates" class="hover:text-blue-400 transition">Certificates</a></li>
+      <li><a href="#about" class="hover:text-blue-400 transition">About Me</a></li>
+    </ul>
+
+    <!-- Mobile Menu Button -->
+    <div class="md:hidden">
+      <button id="menu-toggle" class="text-white focus:outline-none" aria-label="Open navigation menu" title="Open navigation menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Nav -->
+  <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
+    <ul class="space-y-4 text-sm font-medium text-white">
+      <li><a href="#skills" class="block hover:text-blue-400 transition">Skills</a></li>
+      <li><a href="#projects" class="block hover:text-blue-400 transition">Projects</a></li>
+      <li><a href="#certificates" class="block hover:text-blue-400 transition">Certificates</a></li>
+      <li><a href="#about" class="block hover:text-blue-400 transition">About Me</a></li>
+    </ul>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-4xl sm:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">
+      Hello, I'm Abhishek
+    </h1>
+    <p class="mt-4 text-gray-300 text-lg sm:text-xl">This is my Portfolio</p>
+  </section>
+
+  <!-- About Me Section -->
+<section id="about" class="py-24 bg-black text-white relative">
+  <!-- Animated Line -->
+  <div class="absolute top-0 left-0 w-full h-1 overflow-hidden">
+    <div class="h-full w-1/2 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-line-glow"></div>
+  </div>
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
+
+    <div class="flex-shrink-0 w-64 h-64 rounded-full overflow-hidden shadow-lg border-4 border-blue-500">
+  <img src="WhatsApp Image 2025-07-11 at 19.03.17_cb6a1114.jpg" alt="Abhishek" class="w-full h-full object-cover">
+</div>
+
+
+    <!-- About Me Text -->
+    <div class="text-left max-w-2xl">
+      <h2 class="text-4xl font-bold text-blue-400 mb-6 animate-pulse">About Me</h2>
+      <p class="text-lg text-gray-300 leading-relaxed">
+        I'm <span class="text-blue-400 font-semibold">Abhishek</span>, a passionate Front-End Developer & UI/UX Designer.
+        I love building sleek, responsive, and user-focused web interfaces.
+        My skills include:
+      </p>
+
+      <ul class="mt-4 list-disc list-inside text-gray-200">
+        <li>HTML, CSS, JavaScript</li>
+        <li>MySQL, Node.js</li>
+        <li>Figma, Canva (UI/UX)</li>
+        <li>WordPress Development</li>
+      </ul>
+
+      <p class="mt-6 text-gray-400 italic">"Designing with purpose. Coding with passion."</p>
+    </div>
+
+  </div>
+</section>
+
+
+ <!-- Skills Section -->
+<section id="skills" class="py-20 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold text-blue-400 mb-10 animate-glow">My Skills</h2>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+      
+      <!-- HTML -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fab fa-html5 text-orange-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">HTML</h3>
+      </div>
+
+      <!-- CSS -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fab fa-css3-alt text-blue-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">CSS</h3>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fab fa-js text-yellow-400 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">JavaScript</h3>
+      </div>
+
+      <!-- MySQL -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fas fa-database text-green-400 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">MySQL</h3>
+      </div>
+
+      <!-- Node.js -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fab fa-node text-green-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">Node.js</h3>
+      </div>
+
+      <!-- Figma -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fab fa-figma text-pink-500 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">Figma</h3>
+      </div>
+
+      <!-- Canva -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fas fa-paint-brush text-indigo-400 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">Canva</h3>
+      </div>
+
+      <!-- WordPress -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transform transition duration-300">
+        <i class="fab fa-wordpress text-blue-300 text-4xl mb-4"></i>
+        <h3 class="text-lg font-semibold">WordPress</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold text-blue-400 mb-12 animate-glow">My Projects</h2>
+
+   
+
+
+    <!-- Project 1: Gaming Accessories UI -->
+    <div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700 mb-16">
+      <h3 class="text-2xl font-semibold text-white mb-4">E-Commerce UI Design – Figma</h3>
+      <p class="text-gray-400 mb-6">Gaming accessories e-commerce website designed in Figma with a dark, modern layout and smooth user flow.</p>
+      
+      <div class="w-full overflow-x-auto mb-6">
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1);"
+          width="100%"
+          height="450"
+          src="https://embed.figma.com/design/itXD1f0inQqSUMlqXRT8ox/abhishek?node-id=0-1&embed-host=share"
+          allowfullscreen
+          class="rounded-md"
+        ></iframe>
+      </div>
+
+      <a
+        href="https://www.figma.com/file/itXD1f0inQqSUMlqXRT8ox/abhishek"
+        target="_blank"
+        class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition duration-300"
+      >
+        🔗 View on Figma
+      </a>
+    </div>
+
+    <!-- Project 2: Pilot Bookkeeping UI -->
+    <div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700 mb-16">
+      <h3 class="text-2xl font-semibold text-white mb-4">Pilot Bookkeeping – Reengineered UI</h3>
+      <p class="text-gray-400 mb-6">Redesigned the Pilot Bookkeeping website with a cleaner layout, improved user experience, and streamlined sections using Figma.</p>
+
+      <div class="w-full overflow-x-auto mb-6">
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1);"
+          width="100%"
+          height="450"
+          src="https://embed.figma.com/design/Dc3rDucv0am36cgjp7fY6t/abhishek?node-id=0-1&embed-host=share"
+          allowfullscreen
+          class="rounded-md"
+        ></iframe>
+      </div>
+
+      <a
+        href="https://www.figma.com/file/Dc3rDucv0am36cgjp7fY6t/abhishek"
+        target="_blank"
+        class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition duration-300"
+      >
+        🔗 View on Figma
+      </a>
+    </div>
+
+    <!-- Project 3: Gaming UI Prototype -->
+    <div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700 mb-16">
+      <h3 class="text-2xl font-semibold text-white mb-4">Gaming UI Prototype – Figma</h3>
+      <p class="text-gray-400 mb-6">A futuristic gaming landing page prototype built in Figma, with smooth interactions and neon-themed visuals.</p>
+
+      <div class="w-full overflow-x-auto mb-6">
+        <iframe
+          style="border: 1px solid rgba(0, 0, 0, 0.1);"
+          width="100%"
+          height="450"
+          src="https://embed.figma.com/proto/4QhKHQ7dpZ1ydlWnXTegxA/gaming?page-id=0%3A1&node-id=1-2&embed-host=share"
+          allowfullscreen
+          class="rounded-md"
+        ></iframe>
+      </div>
+
+      <a
+        href="https://www.figma.com/proto/4QhKHQ7dpZ1ydlWnXTegxA/gaming?page-id=0%3A1&node-id=1-2"
+        target="_blank"
+        class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition duration-300"
+      >
+        🎮 View Prototype on Figma
+      </a>
+    </div>
+    
+    <!-- Project 4: Dog Adoption Website -->
+<div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700 mb-16">
+  <h3 class="text-2xl font-semibold text-white mb-4">Dog Adoption Website – Figma</h3>
+  <p class="text-gray-400 mb-6">A clean, friendly UI for a dog adoption platform, focused on accessibility and emotional storytelling.</p>
+
+  <div class="w-full overflow-x-auto mb-6">
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="100%"
+      height="450"
+      src="https://embed.figma.com/design/0BZOtNFWItto1LHKYd8EhK/dog-dest?node-id=0-1&embed-host=share"
+      allowfullscreen
+      class="rounded-md"
+    ></iframe>
+  </div>
+
+  <a
+    href="https://www.figma.com/file/0BZOtNFWItto1LHKYd8EhK/dog-dest"
+    target="_blank"
+    class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition duration-300"
+  >
+    🐶 View on Figma
+  </a>
+</div>
+
+<!-- Project 5: Gym Website UI -->
+<div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700 mb-16">
+  <h3 class="text-2xl font-semibold text-white mb-4">Gym Website UI – Figma</h3>
+  <p class="text-gray-400 mb-6">Modern and energetic gym website designed for fitness enthusiasts, featuring bold visuals and strong call-to-action flows.</p>
+
+  <div class="w-full overflow-x-auto mb-6">
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="100%"
+      height="450"
+      src="https://embed.figma.com/design/1ib74pmG4egIgq3UxYrRYl/web-gym?node-id=0-1&embed-host=share"
+      allowfullscreen
+      class="rounded-md"
+    ></iframe>
+  </div>
+
+  <a
+    href="https://www.figma.com/file/1ib74pmG4egIgq3UxYrRYl/web-gym"
+    target="_blank"
+    class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition duration-300"
+  >
+    🏋️ View on Figma
+  </a>
+</div>
+
+<!-- Project 6: Admin Panel UI -->
+<div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700 mb-16">
+  <h3 class="text-2xl font-semibold text-white mb-4">Admin Panel UI – Figma</h3>
+  <p class="text-gray-400 mb-6">A clean, functional admin dashboard interface for managing user data, built in Figma for responsive web applications.</p>
+
+  <div class="w-full overflow-x-auto mb-6">
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1);"
+      width="100%"
+      height="450"
+      src="https://embed.figma.com/design/mZjppsGBevAy4J315wjiTo/admin-panel?node-id=0-1&embed-host=share"
+      allowfullscreen
+      class="rounded-md"
+    ></iframe>
+  </div>
+
+  <a
+    href="https://www.figma.com/file/mZjppsGBevAy4J315wjiTo/admin-panel"
+    target="_blank"
+    class="inline-block px-6 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-md transition duration-300"
+  >
+    🛠️ View on Figma
+  </a>
+</div>
+
+<!-- Project 7: Personal Website -->
+<div class="bg-gray-900 rounded-lg p-6 shadow-lg border border-gray-700">
+  <h3 class="text-2xl font-semibold text-white mb-4">SparkFusion – Personal Portfolio</h3>
+  <p class="text-gray-400 mb-6">My custom-built personal portfolio showcasing my skills, projects, and UI/UX designs. Fully responsive and deployed live.</p>
+
+  <!-- Preview Image or fallback text if no image -->
+  <div class="w-full mb-6 flex items-center justify-center text-gray-400 italic">
+    (Live project preview not embedded — opens in new tab)
+  </div>
+
+  <a
+    href="https://sparke-page-iss3.vercel.app"
+    target="_blank"
+    class="inline-block px-6 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg shadow-md transition duration-300"
+  >
+    🌐 Visit SparkFusion Website
+  </a>
+</div>
+
+<!-- Certificates Section -->
+<section id="certificates" class="py-24 bg-black text-white">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-4xl font-bold text-blue-400 mb-12 animate-glow">Certificates</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Certificate 1 -->
+      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300 relative">
+        <h3 class="text-lg font-semibold text-white mb-2">UI/UX Design Bootcamp</h3>
+        <p class="text-gray-400 text-sm mb-4">Webzenith · Apr–Jun 2025</p>
+
+        <div class="relative overflow-hidden rounded-md mb-4">
+          <img
+            src="Screenshot 2025-07-11 215856.png"
+            alt="Certificate"
+            class="w-full rounded-md"
+          />
+          <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <p class="text-white text-xl font-bold opacity-10 rotate-12">© Abhishek</p>
+          </div>
+        </div>
+
+        <a
+          href="Screenshot 2025-07-11 215856.png"
+          target="_blank"
+          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
+        >
+          🔗 View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 2 (Placeholder) -->
+      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300">
+        <h3 class="text-lg font-semibold text-white mb-2">Mendix Developer</h3>
+        <p class="text-gray-400 text-sm mb-4">Mendix Sep 2024</p>
+
+        <div class="relative overflow-hidden rounded-md mb-4">
+          <img
+            src="mendix.png"
+            alt="Certificate"
+            class="w-full rounded-md"
+          />
+          <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
+            <p class="text-white text-xl font-bold opacity-10 rotate-12">© Abhishek</p>
+          </div>
+        </div>
+
+        <a
+         href="mendix.png"
+          target="_blank"
+          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
+        >
+          🔗 View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 3 (Placeholder) -->
+      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300">
+        <h3 class="text-lg font-semibold text-white mb-2">UI Design with Figma</h3>
+        <p class="text-gray-400 text-sm mb-4">LinkedIn Learning · 2024</p>
+
+        <div class="h-48 bg-gray-800 flex items-center justify-center rounded-md mb-4 text-gray-500">
+          (Image not uploaded)
+        </div>
+
+        <a
+          href="#"
+          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
+        >
+          🔗 View Certificate
+        </a>
+      </div>
+
+      <!-- Certificate 4 (Placeholder) -->
+      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300">
+        <h3 class="text-lg font-semibold text-white mb-2">Intro to Cybersecurity</h3>
+        <p class="text-gray-400 text-sm mb-4">Cisco · Jan 2024</p>
+
+        <div class="h-48 bg-gray-800 flex items-center justify-center rounded-md mb-4 text-gray-500">
+          (Image not uploaded)
+        </div>
+
+        <a
+          href="#"
+          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
+        >
+          🔗 View Certificate
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  </div>
+</section>
+
+
+<!-- Footer / Contact Section -->
+<footer class="bg-black text-white py-12 border-t border-gray-800">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+
+    <!-- Heading -->
+    <h2 class="text-2xl font-bold text-blue-400 mb-6 animate-glow">Let's Connect</h2>
+
+    <!-- Emails as Clickable Links -->
+    <div class="mb-6 space-y-2">
+      <p>
+        📧 <a href="mailto:abhishek934406@gmail.com" class="text-gray-300 hover:text-blue-400 transition">abhishek934406@gmail.com</a>
+      </p>
+      <p>
+        📧 <a href="mailto:abhishek934406@gmail.com" class="text-gray-300 hover:text-blue-400 transition">abhishek934406@gmail.com</a>
+      </p>
+    </div>
+
+    <!-- Social Links -->
+    <div class="flex justify-center space-x-6 mb-6">
+      <a href="https://github.com/SPARKE27" target="_blank" class="hover:text-blue-400 transition">
+        <i class="fab fa-github text-xl"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/abhishek-p-6476152a4" target="_blank" class="hover:text-blue-400 transition">
+        <i class="fab fa-linkedin text-xl"></i> LinkedIn
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="text-gray-500 text-sm">© 2025 Abhishek | Designed & Coded by Sparke</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+<script>
+  document.addEventListener('contextmenu', e => e.preventDefault());
+  document.onkeydown = function (e) {
+    if (
+      (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) ||
+      e.key === 'F12' ||
+      (e.ctrlKey && e.key === 'U')
+    ) {
+      return false;
+    }
+  };
+</script>
+
+</html>
