@@ -13,40 +13,34 @@
 </head>
 <body class="bg-black text-white font-sans scroll-smooth">
 
-<!-- Sticky Navbar with Mobile Menu -->
-<header class="fixed top-0 w-full z-50 bg-black bg-opacity-90 backdrop-blur-md shadow-md">
-  <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-    <h1 class="text-xl font-bold text-white">Abhishek</h1>
+<!-- Navbar -->
+<nav class="bg-black text-white px-4 py-4 fixed w-full z-50 top-0">
+  <div class="max-w-6xl mx-auto flex justify-between items-center">
+    <div class="text-xl font-bold">Abhishek</div>
 
-    <!-- Desktop Nav -->
-    <ul class="hidden md:flex space-x-6 text-sm font-medium">
-      <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
-      <li><a href="#projects" class="hover:text-blue-400 transition">Projects</a></li>
-      <li><a href="#certificates" class="hover:text-blue-400 transition">Certificates</a></li>
-      <li><a href="#about" class="hover:text-blue-400 transition">About Me</a></li>
-    </ul>
+    <!-- Hamburger Icon -->
+    <button id="menu-toggle" class="md:hidden focus:outline-none">
+      <i class="fas fa-bars text-2xl"></i>
+    </button>
 
-    <!-- Mobile Menu Button -->
-    <div class="md:hidden">
-      <button id="menu-toggle" class="text-white focus:outline-none" aria-label="Open navigation menu" title="Open navigation menu">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-            d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-6 text-white font-medium">
+      <a href="#skills" class="hover:text-blue-400">Skills</a>
+      <a href="#projects" class="hover:text-blue-400">Projects</a>
+      <a href="#certificates" class="hover:text-blue-400">Certificates</a>
+      <a href="#about" class="hover:text-blue-400">About Me</a>
     </div>
   </div>
 
-  <!-- Mobile Nav -->
-  <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
-    <ul class="space-y-4 text-sm font-medium text-white">
-      <li><a href="#skills" class="block hover:text-blue-400 transition">Skills</a></li>
-      <li><a href="#projects" class="block hover:text-blue-400 transition">Projects</a></li>
-      <li><a href="#certificates" class="block hover:text-blue-400 transition">Certificates</a></li>
-      <li><a href="#about" class="block hover:text-blue-400 transition">About Me</a></li>
-    </ul>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden flex-col space-y-4 text-left mt-4 md:hidden bg-black border-t border-gray-800 py-4 px-4 rounded shadow-lg">
+    <a href="#skills" class="block hover:text-blue-400">Skills</a>
+    <a href="#projects" class="block hover:text-blue-400">Projects</a>
+    <a href="#certificates" class="block hover:text-blue-400">Certificates</a>
+    <a href="#about" class="block hover:text-blue-400">About Me</a>
   </div>
-</header>
+</nav>
+
 
   <!-- Hero Section -->
   <section class="h-screen flex flex-col justify-center items-center text-center px-4">
