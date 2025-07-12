@@ -9,9 +9,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
 
 </head>
 <body class="bg-black text-white font-sans scroll-smooth">
+  <!-- Animated Background Layer -->
+<div class="fixed inset-0 -z-10 animate-pulse bg-gradient-to-br from-blue-900 via-black to-purple-900 opacity-20 blur-3xl"></div>
+
 
 <!-- Navbar -->
 <nav class="bg-black text-white px-4 py-4 fixed w-full z-50 top-0">
@@ -43,11 +49,25 @@
 
 
   <!-- Hero Section -->
-  <section class="h-screen flex flex-col justify-center items-center text-center px-4">
-    <h1 class="text-4xl sm:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">
-      Hello, I'm Abhishek
-    </h1>
-    <p class="mt-4 text-gray-300 text-lg sm:text-xl">This is my Portfolio</p>
+<section class="h-screen flex flex-col justify-center items-center text-center px-4">
+  <div class="max-w-2xl mx-auto">
+    
+     <p class="mt-4 text-gray-300 text-lg sm:text-xl" data-aos="fade-down" data-aos-delay="200">Hello, Iam</p>
+
+
+<h1 id="spark-name" class=" text-4xl sm:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine "data-aos= "fade-in" data-aos-delay="400">
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl  bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">A</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">b</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">h</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">i</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">s</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">h</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">e</span>
+  <span class="wave-letter animate-glow text-blue-400 font-extrabold text-6xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 animate-shine">k</span>
+</h1>
+
+
+    <p class="mt-4 text-gray-300 text-lg sm:text-xl" data-aos="fade-up" data-aos-delay="200">This is my Portfolio</p>
   </section>
 
   <!-- About Me Section -->
@@ -65,7 +85,7 @@
 
     <!-- About Me Text -->
     <div class="text-left max-w-2xl">
-      <h2 class="text-4xl font-bold text-blue-400 mb-6 animate-pulse">About Me</h2>
+      <h2 class="text-4xl font-bold text-blue-400 mb-6 ">About Me</h2>
       <p class="text-lg text-gray-300 leading-relaxed">
         I'm <span class="text-blue-400 font-semibold">Abhishek</span>, a passionate Front-End Developer & UI/UX Designer.
         I love building sleek, responsive, and user-focused web interfaces.
@@ -140,6 +160,8 @@
         <i class="fab fa-wordpress text-blue-300 text-4xl mb-4"></i>
         <h3 class="text-lg font-semibold">WordPress</h3>
       </div>
+
+
 
     </div>
   </div>
@@ -323,100 +345,67 @@
   </a>
 </div>
 
+
 <!-- Certificates Section -->
 <section id="certificates" class="py-24 bg-black text-white">
   <div class="max-w-6xl mx-auto px-4 text-center">
-    <h2 class="text-4xl font-bold text-blue-400 mb-12 animate-glow">Certificates</h2>
+    <h2 class="text-4xl font-bold text-blue-400 mb-10 animate-glow">Certificates</h2>
 
+    <!-- Certificates Grid (3 Cards) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
       <!-- Certificate 1 -->
-      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300 relative">
-        <h3 class="text-lg font-semibold text-white mb-2">UI/UX Design Bootcamp</h3>
-        <p class="text-gray-400 text-sm mb-4">Webzenith · Apr–Jun 2025</p>
-
-        <div class="relative overflow-hidden rounded-md mb-4">
-          <img
-            src="Screenshot 2025-07-11 215856.png"
-            alt="Certificate"
-            class="w-full rounded-md"
-          />
-          <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
-            <p class="text-white text-xl font-bold opacity-10 rotate-12">© Abhishek</p>
-          </div>
-        </div>
-
-        <a
-          href="Screenshot 2025-07-11 215856.png"
-          target="_blank"
-          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
-        >
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transition-transform duration-300">
+        <h3 class="text-lg font-semibold mb-4">UI/UX Design Bootcamp</h3>
+        <a href="assets/images/certificate-bootcamp.png" target="_blank" class="inline-block px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm rounded">
           🔗 View Certificate
         </a>
       </div>
 
-      <!-- Certificate 2 (Placeholder) -->
-      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300">
-        <h3 class="text-lg font-semibold text-white mb-2">Mendix Developer</h3>
-        <p class="text-gray-400 text-sm mb-4">Mendix Sep 2024</p>
-
-        <div class="relative overflow-hidden rounded-md mb-4">
-          <img
-            src="mendix.png"
-            alt="Certificate"
-            class="w-full rounded-md"
-          />
-          <div class="absolute inset-0 flex justify-center items-center pointer-events-none">
-            <p class="text-white text-xl font-bold opacity-10 rotate-12">© Abhishek</p>
-          </div>
-        </div>
-
-        <a
-         href="mendix.png"
-          target="_blank"
-          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
-        >
+      <!-- Certificate 2 -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transition-transform duration-300">
+        <h3 class="text-lg font-semibold mb-4">Mendix Developer</h3>
+        <a href="mendix.png" target="_blank" class="inline-block px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm rounded">
           🔗 View Certificate
         </a>
       </div>
 
-      <!-- Certificate 3 (Placeholder) -->
-      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300">
-        <h3 class="text-lg font-semibold text-white mb-2">UI Design with Figma</h3>
-        <p class="text-gray-400 text-sm mb-4">LinkedIn Learning · 2024</p>
-
-        <div class="h-48 bg-gray-800 flex items-center justify-center rounded-md mb-4 text-gray-500">
-          (Image not uploaded)
-        </div>
-
-        <a
-          href="#"
-          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
-        >
+      <!-- Certificate 3 -->
+      <div class="bg-gray-900 p-6 rounded-lg shadow-md border border-gray-700 hover:scale-105 transition-transform duration-300">
+        <h3 class="text-lg font-semibold mb-4">Figma for UX design</h3>
+        <a href="linked cert.png" class="inline-block px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white text-sm rounded">
           🔗 View Certificate
         </a>
       </div>
 
-      <!-- Certificate 4 (Placeholder) -->
-      <div class="bg-gray-900 rounded-lg shadow-md p-4 border border-gray-700 hover:scale-105 transition-transform duration-300">
-        <h3 class="text-lg font-semibold text-white mb-2">Intro to Cybersecurity</h3>
-        <p class="text-gray-400 text-sm mb-4">Cisco · Jan 2024</p>
 
-        <div class="h-48 bg-gray-800 flex items-center justify-center rounded-md mb-4 text-gray-500">
-          (Image not uploaded)
+    </div>
+
+    <!-- View More Button -->
+    <a href="certificates.html" class="mt-10 inline-block px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm rounded transition">
+      🔽 View More
+    </a>
+  </div>
+</section>
+
+      <!-- Hidden Certificate for Future -->
+      <div class="group bg-gray-900 rounded-lg overflow-hidden shadow-lg border border-gray-700 transition-all duration-300 hover:scale-105 hover:bg-gray-800 relative hidden" id="future-cert">
+        <div class="p-4">
+          <h3 class="text-lg font-semibold">Coming Soon</h3>
         </div>
-
-        <a
-          href="#"
-          class="inline-block px-4 py-2 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded transition duration-300"
-        >
-          🔗 View Certificate
-        </a>
+        <div class="absolute inset-0 p-4 bg-black bg-opacity-90 opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center transition-opacity duration-300">
+          <div class="w-full h-40 bg-gray-700 rounded mb-4 flex items-center justify-center text-gray-300 italic">Preview Locked</div>
+          <a href="#" class="px-4 py-2 bg-blue-500 text-white text-sm rounded cursor-not-allowed opacity-50">🔒 Not Available</a>
+        </div>
       </div>
 
     </div>
-  </div>
-</section>
+
+  
+
+
+
+
 
 
 
@@ -487,5 +476,51 @@
     mobileMenu.classList.toggle("hidden");
   });
 </script>
+
+<script>
+  function showMoreCertificates() {
+    const hiddenCert = document.getElementById("future-cert");
+    hiddenCert.classList.remove("hidden");
+  }
+</script>
+
+
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+
+<script>
+  const letters = document.querySelectorAll('.wave-letter');
+
+  window.addEventListener('mousemove', (e) => {
+    const center = window.innerWidth / 2;
+    const offset = (e.clientX - center) / center;
+
+    letters.forEach((letter, i) => {
+      const delay = i * 0.05;
+      letter.style.transform = `translateY(${Math.sin(offset * 5 + i) * 10}px)`;
+    });
+  });
+</script>
+
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  };
+</script>
+
+<script>
+  window.addEventListener("load", () => {
+    setTimeout(() => window.scrollTo(0, 0), 10);
+  });
+</script>
+
+</body>
 
 </html>
