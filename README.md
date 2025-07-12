@@ -35,4 +35,44 @@ This is my personal portfolio website, built to showcase my work as a Front-End 
 ---
 
 ## 📂 Folder Structure
+/sparkfolio
+│
+├── index.html # Main portfolio page
+├── certificates.html # Full certificate listing page
+├── /assets
+│ └── /images # Certificate, project, and skill icons
+├── style.css # (optional if using Tailwind CDN)
+└── README.md
+
+
+
+
+---
+
+## 📄 Sections
+
+- 👋 Landing Page
+- 🙋‍♂️ About Me
+- 🚀 Skills
+- 💼 Projects (Figma Embeds)
+- 🎓 Certificates
+- 📬 Contact / Footer
+
+---
+
+## 📬 Contact Me
+
+- 📧 Email: [abhishek934406@gmail.com](mailto:abhishek934406@gmail.com)  
+- 🌐 GitHub: [SPARKE27](https://github.com/SPARKE27)  
+- 💼 LinkedIn: [Abhishek P](https://www.linkedin.com/in/abhishek-p-6476152a4)
+
+---
+
+## 📜 License
+
+This portfolio is open for educational viewing. Please don’t reuse any design or content without permission.
+
+---
+
+### 🔥 Designed & Coded with ❤️ by Sparke
 
