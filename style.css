@@ -39,3 +39,24 @@
   animation: line-glow 3s linear infinite;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+.wave-letter {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+#wave-container:hover .wave-letter {
+  animation: wave 1s infinite ease-in-out;
+}
+@keyframes wave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
